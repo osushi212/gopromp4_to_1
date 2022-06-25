@@ -9,3 +9,4 @@ for /f %%a in (temptxt) do (
 )
 
 ffmpeg -f concat -i filelist.txt -c copy output.mp4
+pause
